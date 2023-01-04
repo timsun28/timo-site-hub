@@ -50,7 +50,7 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className="flex flex-col items-center h-screen m-4 mt-8 md:justify-center dark:text-white">
+            <main className="flex flex-col items-center h-screen m-4 mt-8 dark:text-white">
                 <h1 className="text-4xl">Welcome!</h1>
                 <p className="text-xl">
                     You can find all my side projects on my{" "}
