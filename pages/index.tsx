@@ -59,6 +59,13 @@ export default function Home() {
                     </a>
                     !
                 </p>
+                <p className="text-xl">
+                    To see my professional work, check out my{" "}
+                    <a href="https://krito.tech/" target="_blank" rel="noreferrer" className="underline">
+                        krito.tech
+                    </a>{" "}
+                    page and get in touch!
+                </p>
                 <p className="max-w-3xl text-xl">
                     But here is a short list of my most recent projects. Click on the links to see them in action! All
                     apps are PWA (Progressive Web Apps) so you can install them on your phone for offline usage.
