@@ -11,34 +11,34 @@ export default function Home() {
             title: "Sudoku Combination Finder",
             description:
                 "Find all combinations of a given killer sudoku puzzle by specifying the sum and the number of cells",
-            url: "sudoku.timofrionnet.ml",
+            url: "sudoku.krito.tech",
             github: "https://github.com/timsun28/Sudoku-combination-finder",
         },
         {
             title: "Data Usage Calculator",
             description:
                 "Calculate how much mobile data you should have left at any time in the month. This app uses localstorage to save your monthly limit.",
-            url: "data.timofrionnet.ml",
+            url: "data.krito.tech",
             github: "https://github.com/timsun28/Data-Usage-Calculator",
         },
         {
             title: "Chess Clock",
             description: "An easy to use app to keep track of the time you have left in a chess game!",
-            url: "chessclock.timofrionnet.ml",
+            url: "chess.krito.tech",
             github: "https://github.com/timsun28/Chess-Clock",
         },
         {
             title: "Nines Score Tracker",
             description:
                 "Keep track of your score in the card game Nines for x amount of players. This app supports different themes so you can customize it to your liking!",
-            url: "nines.timofrionnet.ml",
+            url: "nines.krito.tech",
             github: "https://github.com/timsun28/NextJS-Nines-App",
         },
         {
             title: "New Zealand DOC Hike Finder",
             description:
                 "Find hikes in New Zealand's national parks with data from the DOC API. This app works offline as a PWA (Progressive Web App). This is important in NZ where there is no mobile data coverage in most national parks.",
-            url: "doc.timofrionnet.ml",
+            url: "hike.krito.tech",
             github: "https://github.com/timsun28/NextJS-DOC-App",
         },
     ];
