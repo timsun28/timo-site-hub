@@ -45,7 +45,7 @@ export default function Home() {
             title: "Italy greenzone finder",
             description:
                 "Find out if a region in Italy is a green zone or not. This app uses data scraped from green-zones.eu and used geocode.maps.co to convert cities to coordinates.",
-            url: "italy.greenzones.krito.tech",
+            url: "italy.greenzone.krito.tech",
             github: "https://github.com/timsun28/italy.greenzones.krito.tech",
         },
     ];
