@@ -45,6 +45,13 @@ export default function Home() {
             url: "italy.greenzone.krito.tech",
             github: "https://github.com/timsun28/italy.greenzones.krito.tech",
         },
+        {
+            title: "Mistborn Reading Tracker",
+            description:
+                "A Mistborn book series reading tracker that counts down towards the release of era 3 of the Mistborn book series by Brandon Sanderson.",
+            url: "mistborn.krito.tech",
+            github: "",
+        },
     ];
     return (
         <main className="flex flex-col  h-screen m-4 mt-8 dark:text-white">
