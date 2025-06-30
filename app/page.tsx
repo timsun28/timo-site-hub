@@ -50,7 +50,7 @@ export default function Home() {
             description:
                 "A Mistborn book series reading tracker that counts down towards the release of era 3 of the Mistborn book series by Brandon Sanderson.",
             url: "mistborn.krito.tech",
-            github: "",
+            github: "https://github.com/timsun28/mistborn-era-tracker",
         },
     ];
     return (
