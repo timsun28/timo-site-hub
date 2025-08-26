@@ -52,6 +52,13 @@ export default function Home() {
             url: "mistborn.krito.tech",
             github: "https://github.com/timsun28/mistborn-era-tracker",
         },
+        {
+            title: "PDF to Payment QR Converter",
+            description:
+                "Transform PDF invoices and bills into EPC QR codes instantly with AI-powered data extraction. Automatically detects IBAN, amounts, and creditor details from PDF documents, then generates European banking-compatible QR codes for seamless payments. Features a modern, secure interface with real-time QR code generation.",
+            url: "pdf2qr.krito.tech",
+            github: "https://github.com/timsun28/pdf-to-qr",
+        },
     ];
     return (
         <main className="flex flex-col  h-screen m-4 mt-8 dark:text-white">
