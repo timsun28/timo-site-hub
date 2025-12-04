@@ -75,6 +75,15 @@ export default function Home() {
             category: "Finance",
             gradient: "from-indigo-500 to-blue-600",
         },
+        {
+            title: "Pushup Trainer",
+            description:
+                "Follow a 3x/week pushup schema with clear set counts, reps per set, and a countdown timer that cues you when the next set starts.",
+            url: "pushup.krito.tech",
+            github: "https://github.com/timsun28/pushup.krito.tech",
+            category: "Health",
+            gradient: "from-amber-500 to-orange-600",
+        },
     ];
 
     return (
