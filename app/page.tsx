@@ -49,6 +49,15 @@ export default function Home() {
             gradient: "from-emerald-500 to-green-600",
         },
         {
+            title: "France Department Lookup",
+            description:
+                "Enter a French department number to quickly see the department name and a link to its Wikipedia article—perfect for decoding number plates while traveling.",
+            url: "france.krito.tech",
+            github: "https://github.com/timsun28/france-departments",
+            category: "Travel",
+            gradient: "from-sky-500 to-indigo-600",
+        },
+        {
             title: "Italy greenzone finder",
             description:
                 "Find out if a region in Italy is a green zone or not. This app uses data scraped from green-zones.eu and used geocode.maps.co to convert cities to coordinates.",
