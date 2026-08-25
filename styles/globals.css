@@ -1,21 +1,50 @@
-@import "tailwindcss";
+/* Hallmark · pre-emit critique: P5 H4 E5 S5 R5 V4 */
+/* Hallmark · genre: modern-minimal · tone: calm-personal · macrostructure: Portfolio Grid · theme: Cobalt · anchor hue: electric-cobalt
+ * enrichment: none · nav: N9 · footer: Ft2 · contrast: pass (40–41) · slop: pass (42–45) · mobile: pass (34, 49–57)
+ */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap");
+@import "../tokens.css";
 
-html {
+@stylex;
+
+html,
+body {
+    min-width: 0;
+    overflow-x: clip;
     scroll-behavior: smooth;
 }
 
-/* Custom animations */
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-.fade-in-up {
-    animation: fadeInUp 0.6s ease-out forwards;
+body {
+    margin: 0;
+    color: var(--color-ink);
+    background: var(--color-paper);
+    font-family: var(--font-body);
+}
+
+a {
+    color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
 }

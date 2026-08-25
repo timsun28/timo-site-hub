@@ -1,5 +1,8 @@
 module.exports = {
   plugins: {
-    '@tailwindcss/postcss': {},
+    '@stylexjs/postcss-plugin': {
+      include: ['app/**/*.{ts,tsx}', 'styles/**/*.{ts,tsx}'],
+    },
+    autoprefixer: {},
   },
 }
